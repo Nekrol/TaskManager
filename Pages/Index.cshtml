@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная страница";
+}
+<body>
+    <main>
+        <div class="menu">
+            <h5>Меню</h5>
+            <input class="input-search" type="text" placeholder="Поиск"/>
+            <div class="menu-btn">
+                <h5>Опции</h5>
+                <button>Календарь</button>
+                <button>Сегодня</button>
+                <button>Настройки</button>
+                <button>Стикеры</button>
+            </div>
+            <div class="space">
+                <h5>Пространства</h5>
+                <div class="your-workspace-cards">
+                    <div class="create-task-space" id="create-task-space"></div>
+                </div>
+                <button class="create-btn" id="createSpaceButton" onclick="showDiv()">Создать</button>
+            </div>
+            <div class="tags">
+                <h5>Тэги</h5>
+                <button class="add-tag">Добавить</button>
+            </div>
+            <button class="register">Вход и регистрация</button>
+        </div>        
+        <!-- Общий блок для задач -->
+        <div class="task"></div>
+
+        <div class="task-setting"></div>
+
+        <!-- Блок создания задачи -->
+        <div class="hidden-task-div" id="hiddenTaskDiv">
+            <button class="x-mark" onclick="hideTaskDiv()">x</button>
+            <h5>Название задачи</h5>
+            <input type="text" id="taskInput" placeholder="Введите название задачи"/>
+            <button type="submit" class="post-task-name-btn" id="createTaskButton">Создать задачу</button>
+        </div>
+    </main>
+</body>

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TaskManager.styles.css" asp-append-version="true" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="~/js/spaces.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="hiddenDiv" class="create-div">
+             <button class="x-mark-btn" onclick="hideDiv()">x</button>
+            <h5 class="create-div-header">Создать доску</h5>
+            <h5 class="create-div-txt">Заголовок доски</h5>
+            <input class="post-input" id="spaceInput" type="text" placeholder="Название доски" required/>    
+            <button type="submit" class="post-name-btn" id="createSpaceButton">Создать</button>
+         </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="~/js/site.js"></script> <!-- Используем модули -->
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
