@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskManager.Services;
 using TaskManager.Models;
+using System.Data.Entity;
 
 namespace TaskManager.Controllers
 {
@@ -15,7 +16,7 @@ namespace TaskManager.Controllers
             _taskService = taskService;
         }
 
-        [HttpGet]
+        [HttpGet("task-load")]
         public async Task<IActionResult> GetTasks()
         {
             var tasks = await _taskService.GetTasksAsync();
@@ -36,12 +37,10 @@ namespace TaskManager.Controllers
         [HttpPost("create-task")]
         public async Task<IActionResult> CreateTask([FromBody] TaskDto taskDto)
         {
-            if (string.IsNullOrWhiteSpace(taskDto.Title))
-                return BadRequest("Board name is required.");
+            if (string.IsNullOrWhiteSpace(taskDto.Title) || taskDto.BoardId <= 0)
+                return BadRequest("BoardId и Title обязательны.");
 
-            Console.WriteLine($"Добавляем в базу данных: {taskDto.Title}");
-
-            var task = new TaskModel { Title = taskDto.Title };
+            var task = new TaskModel { Title = taskDto.Title, BoardId = taskDto.BoardId };
             var taskId = await _taskService.AddTaskAsync(task);
 
             return Ok(new { Id = taskId });
@@ -56,6 +55,12 @@ namespace TaskManager.Controllers
 
             await _taskService.DeleteTaskAsync(id);
             return Ok();
+        }
+
+        [HttpGet("by-date")]
+        public IActionResult GetByDate([FromQuery] DateTime date)
+        {
+            return Ok(_taskService.GetTasksByDate(date));
         }
     }
 }

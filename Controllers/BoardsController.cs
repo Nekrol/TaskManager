@@ -16,7 +16,7 @@ namespace TaskManager.Controllers
             _boardService = boardService;
         }
 
-        [HttpGet]
+        [HttpGet("board-load")]
         public async Task<IActionResult> GetBoards()
         {
             var boards = await _boardService.GetBoardsAsync();

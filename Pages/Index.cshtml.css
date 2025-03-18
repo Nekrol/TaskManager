@@ -176,3 +176,57 @@
     background-color: #d6d6d6;
     border: none;
 }
+.calendar-container {
+    display: none;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .calendar-header button {
+        background: none;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    text-align: center;
+}
+
+    .calendar div {
+        padding: 10px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+    }
+
+.day-header {
+    font-weight: bold;
+    background: #eee;
+}
+
+.task-day {
+    background: red;
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}   

@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Threading.Tasks;
 using TaskManager.Data;
 using TaskManager.Models;
@@ -26,7 +27,7 @@ namespace TaskManager.Services
 
             try
             {
-                const string query = "INSERT INTO Tasks (Title) VALUES (@Title); SELECT last_insert_rowid();";
+                const string query = "INSERT INTO Tasks (Title, BoardId) VALUES (@Title, @BoardId); SELECT last_insert_rowid();";
                 using var connection = _dbContext.CreateConnection();
                 return await connection.QuerySingleAsync<int>(query, task);
             }
@@ -44,6 +45,12 @@ namespace TaskManager.Services
             using var connection = _dbContext.CreateConnection();
             int rowsAffected = await connection.ExecuteAsync(query, new { Id = id });
             return rowsAffected > 0;
+        }
+        public List<TaskModel> GetTasksByDate(DateTime date)
+        {
+            using var connection = _dbContext.CreateConnection();
+            var sql = "SELECT Id, Title, DueDate FROM Tasks WHERE DueDate = @Date";
+            return connection.Query<TaskModel>(sql, new { Date = date }).ToList();
         }
     }
 }

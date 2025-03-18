@@ -10,7 +10,15 @@
             <input class="input-search" type="text" placeholder="Поиск"/>
             <div class="menu-btn">
                 <h5>Опции</h5>
-                <button>Календарь</button>
+                <button id="openCalendar">Открыть календарь</button>
+                <div class="calendar-container" id="calendarContainer">
+                    <div class="calendar-header">
+                        <button id="prevMonth">&lt;</button>
+                        <span id="currentMonth"></span>
+                        <button id="nextMonth">&gt;</button>
+                    </div>
+                    <div id="calendar"></div>
+                </div>
                 <button>Сегодня</button>
                 <button>Настройки</button>
                 <button>Стикеры</button>
