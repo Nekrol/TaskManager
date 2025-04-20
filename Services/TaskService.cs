@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Data.SQLite;
 using System.Threading.Tasks;
 using TaskManager.Data;
@@ -46,6 +47,28 @@ namespace TaskManager.Services
             int rowsAffected = await connection.ExecuteAsync(query, new { Id = id });
             return rowsAffected > 0;
         }
+        public async Task UpdateTaskDescription(int taskId, string description)
+        {
+            const string query = "UPDATE Tasks SET Description = @Description WHERE Id = @Id";
+            using var connection = _dbContext.CreateConnection();
+            await connection.ExecuteAsync(query, new { Id = taskId, Description = description });
+        }
+
+        public async Task<string?> GetTaskDescription(int taskId)
+        {
+            const string query = "SELECT Description FROM Tasks WHERE Id = @Id";
+            using var connection = _dbContext.CreateConnection();
+            return await connection.QueryFirstOrDefaultAsync<string?>(query, new { Id = taskId });
+        }
+
+        public async Task UpdateTaskTitleAsync(int taskId, string newTitle)
+        {
+            const string query = "UPDATE Tasks SET Title = @Title WHERE Id = @Id";
+            using var connection = _dbContext.CreateConnection();
+            await connection.ExecuteAsync(query, new { Title = newTitle, Id = taskId });
+        }
+
+
         public List<TaskModel> GetTasksByDate(DateTime date)
         {
             using var connection = _dbContext.CreateConnection();

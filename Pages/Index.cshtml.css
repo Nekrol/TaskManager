@@ -1,10 +1,11 @@
-﻿.task-container {
+﻿﻿.task-container {
     margin-top: 100px;
     width: 80%;
     height: 717px;
     margin-left: 10%;
     margin-right: 20%;
 }
+
 .settings-btn {
     font-size: 16px;
     width: 256px;
@@ -12,16 +13,19 @@
     border: none;
     color: #333333;
 }
+
     .settings-btn:hover {
         background-color: #5c6066;
         border-radius: 5px;
     }
+
 .your-tasks-txt {
     color: #333333;
     margin-left: 20px;
     width: 256px;
     height: 32px;
 }
+
 .task {
     background: linear-gradient(15deg, #ffffff 0%, #f8f9fd 100%);
     position: absolute;
@@ -30,6 +34,7 @@
     height: 800px;
     margin-top: 20px;
 }
+
 .add-task {
     width: 150px;
     height: 30px;
@@ -39,6 +44,7 @@
     margin-top: 98%;
     margin-left: 39%;
 }
+
 .task-setting {
     position: absolute;
     background: #e0e0e0;
@@ -49,30 +55,35 @@
     margin-top: 20px;
     border-radius: 15px;
 }
-.your-workspace{
+
+.your-workspace {
     width: 825px;
     height: 200px;
 }
+
 .your-workspace-cards {
     width: 280px;
     height: 250px;
     background: #e0e0e0;
     margin-left: 55px;
 }
+
 .create-task-space {
     display: flex;
     flex-direction: row;
     background: #e0e0e0;
     border: none;
 }
+
 .guest-workspace {
     width: 825px;
     height: 130px;
 }
+
 .menu {
     position: absolute;
-    width: 25%; 
-    height: 1250px;
+    width: 25%;
+    height: 800px;
     background: #e0e0e0;
     border-radius: 15px;
     margin: 0;
@@ -80,12 +91,14 @@
     left: 0;
     margin-left: 30px;
 }
+
     .menu h5 {
         margin-top: 15px;
         background: #e0e0e0;
         padding-left: 5%;
         color: #2c3e50;
     }
+
 .input-search {
     border: none;
     color: #333333;
@@ -93,6 +106,7 @@
     margin-left: 30%;
     background: #e0e0e0;
 }
+
 .menu-btn {
     width: 250px;
     height: 190px;
@@ -103,32 +117,39 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+
     .menu-btn button {
         border: none;
         background: #e0e0e0;
         color: #2c3e50;
     }
+
     .menu-btn h5 {
         background: #e0e0e0;
         padding-left: 5%;
     }
+
 .space {
     height: 325px;
     margin-top: 15px;
     background: #e0e0e0;
 }
+
     .space h5 {
         padding-left: 5%;
         background: #e0e0e0;
     }
-.space button{
-    margin-left: 30%;
-    margin-top: 15px;
-}
-.tags {
+
+    .space button {
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+
+/*.tags {
     height: 400px;
     background: #e0e0e0;
 }
+
     .tags button {
         width: 150px;
         height: 30px;
@@ -136,7 +157,8 @@
         color: #FFFFFF;
         border-radius: 5px;
         margin-top: 98%;
-    }
+    }*/
+
 .register {
     width: 170px;
     height: 40px;
@@ -148,6 +170,7 @@
     color: #FFFFFF;
     border: none;
 }
+
 .hidden-task-div {
     display: none;
     position: absolute;
@@ -159,11 +182,13 @@
     z-index: 10;
     border-radius: 15px;
 }
+
     .hidden-task-div h5 {
         background-color: #d6d6d6;
         margin-top: 7%;
         margin-left: 35%;
     }
+
 .post-task-name-btn {
     border-radius: 5px;
     width: 150px;
@@ -172,10 +197,12 @@
     background: #2C3E50;
     color: #FFFFFF;
 }
+
 .x-mark {
     background-color: #d6d6d6;
     border: none;
 }
+
 .calendar-container {
     display: none;
     width: 300px;
@@ -229,4 +256,23 @@
 
 .hidden {
     visibility: hidden;
-}   
+}
+
+.footer {
+    position: absolute;
+    top: 900px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.footer-txt {
+    margin-top: 20px;
+    background-color: #222;
+    color: white;
+}

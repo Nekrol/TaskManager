@@ -2,6 +2,9 @@
 using TaskManager.Services;
 using TaskManager.Models;
 using System.Data.Entity;
+using System.Data.SqlClient;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
+using System.Text.Json;
 
 namespace TaskManager.Controllers
 {
@@ -45,17 +48,87 @@ namespace TaskManager.Controllers
 
             return Ok(new { Id = taskId });
         }
+        [HttpPost("update-description/{taskId}")]
+        public async Task<IActionResult> UpdateTaskDescription(int taskId, [FromBody] RawDto dto)
+        {
+            Console.WriteLine($"[сервер] пришло: {dto?.Description}");
+
+            if (dto == null)
+            {
+                Console.WriteLine("[сервер] dto null");
+                return BadRequest("Описание не может быть пустым.");
+            }
+
+            if (string.IsNullOrWhiteSpace(dto.Description))
+            {
+                Console.WriteLine("[сервер] пустая строка");
+                return BadRequest("Описание не может быть пустым.");
+            }
+
+            try
+            {
+                Console.WriteLine("[сервер] всё ок, отправляю на сервис");
+                await _taskService.UpdateTaskDescription(taskId, dto.Description);
+                return Ok("Описание обновлено.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[сервер] ошибка: {ex.Message}");
+                return StatusCode(500, $"Ошибка при обновлении описания: {ex.Message}");
+            }
+        }
 
 
-        [HttpDelete("{id}")]
+
+
+        [HttpGet("get-description/{taskId}")]
+        public async Task<IActionResult> GetTaskDescription(int taskId)
+        {
+            try
+            {
+                var description = await _taskService.GetTaskDescription(taskId);
+                if (description == null)
+                    return NotFound("Задача не найдена или описание отсутствует.");
+
+                return Ok(new { Description = description });
+            }
+            catch (Exception ex)
+            {   
+                return StatusCode(500, $"Ошибка при получении описания: {ex.Message}");
+            }
+        }
+
+        [HttpDelete("delete-task/{id}")]
         public async Task<IActionResult> DeleteTask(int id)
         {
             if (id <= 0)
-                return BadRequest("Invalid task ID.");
+                return BadRequest("неправильный ID");
 
-            await _taskService.DeleteTaskAsync(id);
-            return Ok();
+            var success = await _taskService.DeleteTaskAsync(id);
+            return success ? Ok("удалено") : NotFound("задача не найдена");
         }
+
+        [HttpPut("update-title/{taskId}")]
+        public async Task<IActionResult> UpdateTitle(int taskId)
+        {
+            using var reader = new StreamReader(Request.Body);
+            var body = await reader.ReadToEndAsync();
+            Console.WriteLine($"[контроллер] Сырое тело запроса: {body}");
+
+            var dto = JsonSerializer.Deserialize<TaskDto>(body);
+            Console.WriteLine($"[контроллер] dto.Title: {dto?.Title}");
+
+            if (dto == null || string.IsNullOrWhiteSpace(dto.Title))
+            {
+                Console.WriteLine("[controller] ошибка: пустой DTO или title");
+                return BadRequest("Новое название не может быть пустым.");
+            }
+
+            await _taskService.UpdateTaskTitleAsync(taskId, dto.Title);
+            return Ok("Название обновлено.");
+        }
+
+
 
         [HttpGet("by-date")]
         public IActionResult GetByDate([FromQuery] DateTime date)

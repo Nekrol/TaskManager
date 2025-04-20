@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\Projects\\C# projects\\TaskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\wwwroot\\js\\spaces.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:wwwroot\\js\\spaces.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\models\\rawdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:models\\rawdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\wwwroot\\js\\spaces.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:wwwroot\\js\\spaces.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\pages\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:pages\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:models\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\services\\boardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:services\\boardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|solutionrelative:models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632D6C3C-3AD1-45DF-AB23-45A96D87E2C9}|TaskManager.csproj|d:\\projects\\c# projects\\taskmanager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,48 +50,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskDto.cs",
-              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskDto.cs",
-              "RelativeDocumentMoniker": "Models\\TaskDto.cs",
-              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskDto.cs",
-              "RelativeToolTip": "Models\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:38:04.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "spaces.js",
               "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\spaces.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\spaces.js",
               "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\spaces.js",
               "RelativeToolTip": "wwwroot\\js\\spaces.js",
-              "ViewState": "AgIAALQAAAAAAAAAAAAswMgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAqwJABAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-01T12:44:25.455Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "Services\\TaskService.cs",
-              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Services\\TaskService.cs",
-              "RelativeToolTip": "Services\\TaskService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RawDto.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Models\\RawDto.cs",
+              "RelativeDocumentMoniker": "Models\\RawDto.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Models\\RawDto.cs",
+              "RelativeToolTip": "Models\\RawDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T20:27:35.489Z"
+              "WhenOpened": "2025-04-20T09:44:24.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
@@ -101,57 +91,82 @@
               "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
               "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Controllers\\TasksController.cs",
               "RelativeToolTip": "Controllers\\TasksController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAzwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:34:54.754Z"
+              "WhenOpened": "2025-02-04T08:34:54.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskModel.cs",
-              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskModel.cs",
-              "RelativeDocumentMoniker": "Models\\TaskModel.cs",
-              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskModel.cs",
-              "RelativeToolTip": "Models\\TaskModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T20:19:56.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "site.js",
               "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAiwI4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-04T08:20:33.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BoardService.cs",
-              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Services\\BoardService.cs",
-              "RelativeDocumentMoniker": "Services\\BoardService.cs",
-              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Services\\BoardService.cs",
-              "RelativeToolTip": "Services\\BoardService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T19:10:07.408Z"
+              "WhenOpened": "2025-03-30T13:08:32.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BoardsController.cs",
-              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Controllers\\BoardsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
-              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Controllers\\BoardsController.cs",
-              "RelativeToolTip": "Controllers\\BoardsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskDto.cs",
+              "RelativeDocumentMoniker": "Models\\TaskDto.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskDto.cs",
+              "RelativeToolTip": "Models\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T19:09:30.066Z"
+              "WhenOpened": "2025-03-30T13:47:49.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Pages\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.css",
+              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Pages\\Index.cshtml.css",
+              "RelativeToolTip": "Pages\\Index.cshtml.css",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAgwBIBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-29T09:17:40.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-01T13:07:40.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "Models\\TaskModel.cs",
+              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Models\\TaskModel.cs",
+              "RelativeToolTip": "Models\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T20:19:56.634Z"
             },
             {
               "$type": "Document",
@@ -164,18 +179,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-14T19:06:16.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\C# projects\\TaskManager\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\C# projects\\TaskManager\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwCkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T13:07:40.281Z"
             }
           ]
         }

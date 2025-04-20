@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WDP6wnZJIsSjWBeIJT+ZyK7Ob938/jjDnmlF/unxhjU=",
+  "Hash": "RKcrCTmbxiBszqtxM1iBbqdBEO/p/Xy3OwuPPQ9Gqdg=",
   "Source": "TaskManager",
   "BasePath": "_content/TaskManager",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "26ge1pxnt0",
-      "Integrity": "Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8=",
+      "Fingerprint": "ka6onor5y2",
+      "Integrity": "JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TaskManager.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "26ge1pxnt0",
-      "Integrity": "Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8=",
+      "Fingerprint": "ka6onor5y2",
+      "Integrity": "JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nzzpt40o7k",
-      "Integrity": "c08hb3lq8R5CRS1YVRvAkW4MIQKkvSjPpcbfpzMj/Ik=",
+      "Fingerprint": "cptvjzx7bo",
+      "Integrity": "4CjOMZJB7cO93kgGiZCYNflwIj63A7VIeRt6LmsCEcg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\spaces.js"
@@ -1588,6 +1588,51 @@
       ]
     },
     {
+      "Route": "js/spaces.cptvjzx7bo.js",
+      "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\spaces.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4CjOMZJB7cO93kgGiZCYNflwIj63A7VIeRt6LmsCEcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 09:43:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cptvjzx7bo"
+        },
+        {
+          "Name": "label",
+          "Value": "js/spaces.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4CjOMZJB7cO93kgGiZCYNflwIj63A7VIeRt6LmsCEcg="
+        }
+      ]
+    },
+    {
       "Route": "js/spaces.js",
       "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\spaces.js",
       "Selectors": [],
@@ -1598,7 +1643,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15158"
+          "Value": "17931"
         },
         {
           "Name": "Content-Type",
@@ -1606,11 +1651,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c08hb3lq8R5CRS1YVRvAkW4MIQKkvSjPpcbfpzMj/Ik=\""
+          "Value": "\"4CjOMZJB7cO93kgGiZCYNflwIj63A7VIeRt6LmsCEcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 14:15:04 GMT"
+          "Value": "Sun, 20 Apr 2025 09:43:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1620,52 +1665,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c08hb3lq8R5CRS1YVRvAkW4MIQKkvSjPpcbfpzMj/Ik="
-        }
-      ]
-    },
-    {
-      "Route": "js/spaces.nzzpt40o7k.js",
-      "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\wwwroot\\js\\spaces.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15158"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c08hb3lq8R5CRS1YVRvAkW4MIQKkvSjPpcbfpzMj/Ik=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 14:15:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nzzpt40o7k"
-        },
-        {
-          "Name": "label",
-          "Value": "js/spaces.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-c08hb3lq8R5CRS1YVRvAkW4MIQKkvSjPpcbfpzMj/Ik="
+          "Value": "sha256-4CjOMZJB7cO93kgGiZCYNflwIj63A7VIeRt6LmsCEcg="
         }
       ]
     },
@@ -6344,96 +6344,6 @@
       ]
     },
     {
-      "Route": "TaskManager.26ge1pxnt0.bundle.scp.css",
-      "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 20:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "26ge1pxnt0"
-        },
-        {
-          "Name": "label",
-          "Value": "TaskManager.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8="
-        }
-      ]
-    },
-    {
-      "Route": "TaskManager.26ge1pxnt0.styles.css",
-      "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TaskManager.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 20:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "26ge1pxnt0"
-        },
-        {
-          "Name": "label",
-          "Value": "TaskManager.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8="
-        }
-      ]
-    },
-    {
       "Route": "TaskManager.bundle.scp.css",
       "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
       "Selectors": [],
@@ -6444,7 +6354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6928"
+          "Value": "7330"
         },
         {
           "Name": "Content-Type",
@@ -6452,11 +6362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8=\""
+          "Value": "\"JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 20:48:17 GMT"
+          "Value": "Sun, 30 Mar 2025 13:28:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6466,7 +6376,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8="
+          "Value": "sha256-JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk="
+        }
+      ]
+    },
+    {
+      "Route": "TaskManager.ka6onor5y2.bundle.scp.css",
+      "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TaskManager.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 13:28:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ka6onor5y2"
+        },
+        {
+          "Name": "label",
+          "Value": "TaskManager.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk="
+        }
+      ]
+    },
+    {
+      "Route": "TaskManager.ka6onor5y2.styles.css",
+      "AssetFile": "D:\\Projects\\C# projects\\TaskManager\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TaskManager.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 13:28:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ka6onor5y2"
+        },
+        {
+          "Name": "label",
+          "Value": "TaskManager.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk="
         }
       ]
     },
@@ -6481,7 +6481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6928"
+          "Value": "7330"
         },
         {
           "Name": "Content-Type",
@@ -6489,11 +6489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8=\""
+          "Value": "\"JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 20:48:17 GMT"
+          "Value": "Sun, 30 Mar 2025 13:28:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6503,7 +6503,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Wr4TOco/Hy8v3hwnSuHCCpUScoEj1nMykVpMC9C1WP8="
+          "Value": "sha256-JAMamIUTxCCk27b7y8VhUK5JQ7CxwAkjEocFYQ5oiAk="
         }
       ]
     }
